@@ -44,7 +44,7 @@ while True:
         print ('Connected to: ' + address[0] + ':' + str(address[1]))
         start_new_thread (threaded_client, (Client))
         ThredCount +=1
-        print ('Thred Number: ' + str(ThresCount))
+        print ('Thred Number: ' + str(ThredCount))
 
 new_socket.close()
 
